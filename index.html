@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Heritage Coffee</title>
+    <link rel="shortcut icon" href="./assets/image/logo.png" type="image/x-icon">
+    <!-- css link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- remix icon link cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+</head>
+
+<body>
+    <!-- header & navbar  -->
+    <header class="header" id="header">
+        <nav class="navbar container" id="navbar">
+            <a href="#home" class="navbar--logo">
+                <img src="assets/image/logo.png" alt="logo" class="logo--img">
+            </a>
+            <div class="navbar--menu" id="navbar-menu">
+                <ul class="navbar--list">
+                    <li class="navbar--item">
+                        <a href="#home" class="navbar--link">Home</a>
+                    </li>
+                    <li class="navbar--item">
+                        <a href="#product" class="navbar--link">Products</a>
+                    </li>
+                    <li class="navbar--item">
+                        <a href="#gallery" class="navbar--link">Gallery</a>
+                    </li>
+                    <li class="navbar--item">
+                        <a href="#contact" class="navbar--link">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- btn close  -->
+                <i class="ri-close-line btn--close" id="btn-close"></i>
+            </div>
+            <div class="navbar--extra">
+                <i class="ri-search-line btn--search" id="btn-search"></i>
+                <i class="ri-user-line btn--login" id="btn-login"></i>
+                <i class="ri-menu-line btn--menu" id="btn-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- login  -->
+    <div class="login" id="login">
+        <form action="#" class="login--form">
+            <h2 class="section--title">Login</h2>
+            <div class="form--group">
+                <div>
+                    <label for="username" class="login--label">Username</label>
+                    <input type="text" name="username" id="username" class="login--input" autocomplete="name"
+                        placeholder="Username" required>
+                </div>
+                <div>
+                    <label for="password" class="login--label">Password</label>
+                    <input type="password" name="password" id="password" class="login--input" autocomplete="name"
+                        placeholder="Password" required>
+                </div>
+            </div>
+            <div>
+                <p class="btn--signup">Create any account ?
+                    <a href="#">Sign Up</a>
+                </p>
+                <a href="#" class="btn--forgotpas">Forgot Password</a>
+                <button type="submit" class="btn__login">Login</button>
+            </div>
+        </form>
+        <i class="ri-close-line close__icon" id="btn__login-close"></i>
+    </div>
+    <!-- start main  -->
+    <main class="main">
+        <!-- home section  -->
+        <section class="home section" id="home">
+            <div class="home--data container">
+                <h1 class="home--subtitle">Experience Flores<br>
+                    <span>Coffee's Essence</span>
+                </h1>
+                <p class="home--desc">Bringing the magic of the taste of the best Flores coffee beans to the world</p>
+                <a href="#product" class="home--button">Shop Coffee Beans</a>
+            </div>
+        </section>
+
+        <!-- services section  -->
+        <section class="services section" id="services">
+            <div class="services--container container">
+                <div class="services--data">
+                    <h2 class="section--title">Why Flores <br>Heritage Coffee</h2>
+                    <p class="section--description">Services we provide for you</p>
+                </div>
+                <div class="services--content">
+                    <div class="services--card">
+                        <div class="services--image">
+                            <img src="./assets/image/ser1.png" alt="service image">
+                        </div>
+                        <h3 class="service--title">Premium Coffee Bean Sales</h3>
+                        <p class="services--desc">We provide premium coffee beans hand-picked
+                            from the best plantations in Flores, ensuring the best quality and freshness in every cup.
+                        </p>
+                    </div>
+                    <div class="services--card">
+                        <div class="services--image">
+                            <img src="./assets/image/ser2.png" alt="service image">
+                        </div>
+                        <h3 class="service--title">Monthly Coffee Subscription</h3>
+                        <p class="services--desc">Enjoy the convenience of our monthly
+                            coffee subscription and get selected coffee beans delivered right to your door every month.
+                        </p>
+                    </div>
+                    <div class="services--card">
+                        <div class="services--image">
+                            <img src="./assets/image/ser3.png" alt="service image">
+                        </div>
+                        <h3 class="service--title">Coffee Consultation</h3>
+                        <p class="services--desc">We offer a coffee consultation service to help
+                            you understand more about Flores coffee, from bean selection to the best brewing techniques.
+                        </p>
+                    </div>
+                    <div class="services--card">
+                        <div class="services--image">
+                            <img src="./assets/image/ser4.png" alt="service image">
+                        </div>
+                        <h3 class="service--title">Custom Grinding and Roasting</h3>
+                        <p class="services--desc">Get the perfect coffee flavor
+                            according to your taste with our custom grinding and roasting service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product section  -->
+        <section class="product section" id="product">
+            <div class="product--container container">
+                <h2 class="section--title">Our Products</h2>
+                <p class="section--description">Some products from Flores Heritage Coffee</p>
+                <div class="product--content">
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-1.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Arabica Classic</h3>
+                        <p class="product--desc">Offering a rich and full flavor, with hints of fruit and chocolate,
+                            Flores Arabica Classic is a favorite choice for coffee lovers looking for the perfect
+                            balance.</p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-2.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Robusta Bold</h3>
+                        <p class="product--desc">Known for its strength and viscosity, Flores Robusta Bold delivers a
+                            strong and intense coffee flavor, ideal for energetic mornings.</p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-3.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Heritage Blend</h3>
+                        <p class="product--desc">An exclusive blend of Flores coffee beans that offers a complex
+                            combination of flavors with nuances of caramel and spices, perfect for relaxing.</p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-1.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Decaf Delight</h3>
+                        <p class="product--desc">For those who like decaffeinated coffee, Flores Decaf Delight delivers
+                            a smooth and satisfying taste without the stimulant effect, perfect for enjoying anytime.
+                        </p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-2.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Espresso Roast</h3>
+                        <p class="product--desc">Especially for espresso lovers, Flores Espresso Roast delivers intense
+                            coffee strength and character, ideal for espresso or cappuccino.</p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                    <article class="product--card">
+                        <div class="product--image">
+                            <img src="./assets/image/Best-3.png" alt="product image" class="product--img">
+                        </div>
+                        <h3 class="product--name">Flores Vanilla Cream </h3>
+                        <p class="product--desc">Blend Enjoy delicious Flores coffee combined with soft vanilla,
+                            creating a harmony of creamy and sweet flavors in every sip.</p>
+                        <div class="product--detail_content">
+                            <h3 class="product--price"><span>IDR</span> 150.000</h3>
+                            <button type="submit" class="btn-buy">Buy now</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe section  -->
+        <section class="section subscribe" id="subscribe">
+            <div class="subscribe--container container">
+                <h2 class="section--title">Your Journey Starts Here</h2>
+                <p class="section--description">Get the latest information on the best <br> coffee beans and exclusive
+                    offers from us</p>
+                <div class="subscribe--content">
+                    <form action="#" class="subcribe--form">
+                        <input type="email" class="input--form" name="email" id="email" autocomplete="email"
+                            placeholder="Enter your email" required>
+                        <button type="submit" class="btn--subsribe">Subscribe Our Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section  -->
+        <section class="footer" id="footer">
+            <div class="footer--container container">
+                <div class="footer--logo-content">
+                    <a href="#" class="footer--logo">
+                        <img src="assets/image/logo.png" class="logo--img" alt="logo">
+                        Flores Heritage Coffe
+                    </a>
+                    <p class="footer--desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, in
+                        deleniti? Pariatur nesciunt, similique temporibus deserunt optio recusandae labore consectetur.
+                    </p>
+                </div>
+                <div class="footer--menu">
+                    <div>
+                        <h3 class="footer--title">Menu</h3>
+                        <ul class="footer--list">
+                            <li><a href="#" class="footer--link">Login</a></li>
+                            <li><a href="#" class="footer--link">About Us</a></li>
+                            <li><a href="#" class="footer--link">Help</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer--title">Quick Links</h3>
+                        <ul class="footer--list">
+                            <li><a href="#" class="footer--link">Terms & Condition</a></li>
+                            <li><a href="#" class="footer--link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer--link">FaQ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer--title">Contac Us</h3>
+                        <ul class="footer--list">
+                            <li><a href="#" class="footer--link">98712312</a></li>
+                            <li><a href="#" class="footer--link">floresv@gmail.com</a></li>
+                            <li><a href="#" class="footer--link">East Nusa Tenggara</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer--title">Social Media</h3>
+                        <ul class="footer--list-sosmed">
+                            <li><a href="www.instagram.com" target="_blank" class="footer--link"><i
+                                        class="ri-instagram-line footer--icon"></i></a></li>
+                            <li><a href="#" class="footer--link"><i class="ri-facebook-line footer--icon"></i></a></li>
+                            <li><a href="#" class="footer--link"><i class="ri-twitter-x-line footer--icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- copyright text  -->
+        <p class="copyright--text">
+            &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Create By DUO CODDE | All Right Reserved
+        </p>
+    </main>
+    <!-- end main  -->
+    <!-- js link  -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
